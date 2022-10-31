@@ -205,12 +205,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/CFR_para_M_src1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_M_src1.bin \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/CFR_para_M_src2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_M_src2.bin \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/CFR_para_M_src3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_M_src3.bin \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/CFR_para_UW_src1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_UW_src1.bin \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/CFR_para_UW_src2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_UW_src2.bin \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/CFR_para_UW_src3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_UW_src3.bin \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/LDC_FPC_TUNING_DATA.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_FPC_TUNING_DATA.bin \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/LDC_PACKDATA_VENDORID_0x01.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_PACKDATA_VENDORID_0x01.bin \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/LDC_PACKDATA_VENDORID_0x07.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_PACKDATA_VENDORID_0x07.bin \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/almalence_sr_params_tele.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele.config \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/almalence_sr_params_wide.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_wide.config \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/beauty_ui9_intelligent_params.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beauty_ui9_intelligent_params.config \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/body_slim_ui9_params.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/body_slim_ui9_params.config \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/eisoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eisoverridesettings.txt \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/eyelineblush.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eyelineblush.cng \
@@ -218,10 +223,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/hdr_ui9_params.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hdr_ui9_params.config \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/libsnpe_dsp_v66_domains_v2_skel.so:$(TARGET_COPY_OUT_VENDOR)/etc/camera/libsnpe_dsp_v66_domains_v2_skel.so \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/megviifacepp_0_5_2_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/megviifacepp_0_5_2_model \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/mibokeh_712_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_712_opencl.bin \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/mibokeh_712_parameter.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_712_parameter.bin \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/model_back.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_back.dlc \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/model_front.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_front.dlc \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/sceneDetection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sceneDetection.xml \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/vidhance_calibration_gc8034:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration_gc8034 \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/vidhance_calibration_imx582:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration_imx582 \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/vidhance_calibration_ov8856:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration_ov8856 \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/vidhance_calibration_s5kgm2:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration_s5kgm2 \
+    vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/vidhance_calibration_s5kgw1:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration_s5kgw1 \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/camera/watermark_font_2300_3199.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/watermark_font_2300_3199.dat \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
     vendor/xiaomi/sm6250-common/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
