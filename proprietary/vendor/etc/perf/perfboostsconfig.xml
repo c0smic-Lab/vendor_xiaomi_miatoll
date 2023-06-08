@@ -27,8 +27,8 @@
         <!-- Type="1", main launch boost of 2sec -->
        <Config
            Id="0x00001081" Type="1" Enable="true" Timeout="2000"
-           Resources="0x40C20000, 0x28, 0x40C1C000, 0x32, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 1516,
-                      0x40800100, 1516" />
+           Resources="0x40C20000, 0x28, 0x40C1C000, 0x32, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0xFFF,
+                      0x40800100, 0xFFF" />
 
 
     <!--app lauch boost (disabling packing)-->
@@ -143,14 +143,16 @@
         <!-- CPUBOOST_MAX_FREQ LITTLE Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
+        <!-- CPUBW_MIN_FREQ resource opcode, value-->
+        <!-- DISABLE_POWER_COLLAPSE resource opcode, value-->
         <!-- STORAGE CLK SCALING resource opcode, value-->
         <!-- LPM Bias resource opcode, value -->
 
         <!-- Type="", MTP boost -->
         <Config
             Id="0x00001086" Enable="true"
-            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 1516,
-                       0x40800100, 1516, 0x42C10000, 0x1,  0x40408000, 0x19" />
+            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0xFFF,
+                       0x40800100, 0xFFF, 0x41800000, 140, 0x40400000, 0x1, 0x42C10000, 0x1,  0x40408000, 0x19" />
 
     <!--PackageInstall boost-->
         <!-- CPUBOOST_MAX_FREQ BIG Core resource opcode, value-->
