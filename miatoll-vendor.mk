@@ -25,4 +25,5 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/miatoll/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_hi556.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_hi556.bin \
     vendor/xiaomi/miatoll/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_imx582.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_imx582.bin \
     vendor/xiaomi/miatoll/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_ov32a1q.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_ov32a1q.bin \
+    vendor/xiaomi/miatoll/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_s5kgm2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_s5kgm2.bin \
     vendor/xiaomi/miatoll/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_s5kgw1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_s5kgw1.bin
