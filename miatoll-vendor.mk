@@ -1146,6 +1146,7 @@ PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
     WfdCommon \
+    tcmclient \
     vendor.xiaomi.hardware.misys-V1.0-java \
     vendor.xiaomi.hardware.misys-V2.0-java \
     vendor.xiaomi.hardware.misys.V3_0 \
