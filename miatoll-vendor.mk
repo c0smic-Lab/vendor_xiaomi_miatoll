@@ -36,6 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/miatoll/proprietary/system_ext/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_libpermissions.xml \
     vendor/xiaomi/miatoll/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/miatoll/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
+    vendor/xiaomi/miatoll/proprietary/system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml \
     vendor/xiaomi/miatoll/proprietary/system_ext/etc/seccomp_policy/wfdservice.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/wfdservice.policy \
     vendor/xiaomi/miatoll/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
     vendor/xiaomi/miatoll/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
@@ -165,7 +166,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/miatoll/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
     vendor/xiaomi/miatoll/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/xiaomi/miatoll/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
-    vendor/xiaomi/miatoll/proprietary/vendor/bin/wfdvndservice:$(TARGET_COPY_OUT_VENDOR)/bin/wfdvndservice \
     vendor/xiaomi/miatoll/proprietary/vendor/bin/wifidisplayhalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wifidisplayhalservice \
     vendor/xiaomi/miatoll/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/Diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/Diag.cfg \
@@ -295,7 +295,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc \
-    vendor/xiaomi/miatoll/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/qdcm_calib_data_ft8756_video_mode_dsi_huaxing_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ft8756_video_mode_dsi_huaxing_panel.xml \
@@ -305,7 +304,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
-    vendor/xiaomi/miatoll/proprietary/vendor/etc/seccomp_policy/wfdvndservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdvndservice.policy \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/seccomp_policy/wifidisplayhalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wifidisplayhalservice.policy \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/sensors/config/adux1050_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/adux1050_0.json \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/sensors/config/atoll_adux1050_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/atoll_adux1050_0.json \
@@ -459,16 +457,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpudataproducer.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
-    vendor/xiaomi/miatoll/proprietary/vendor/lib/libhdcp1prov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcp1prov.so \
-    vendor/xiaomi/miatoll/proprietary/vendor/lib/libhdcp2p2prov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcp2p2prov.so \
-    vendor/xiaomi/miatoll/proprietary/vendor/lib/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcpsrm.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/libhdmipassthru.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmipassthru.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/liblistensoundmodel2.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblistensoundmodel2.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
-    vendor/xiaomi/miatoll/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/libmmrtpdecoder_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpdecoder_proprietary.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/libmmrtpencoder_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpencoder_proprietary.so \
